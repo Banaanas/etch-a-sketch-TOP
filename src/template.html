@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <title>Etch-a-Sketch</title>
+  </head>
+  <body>
+    <div id="alert-touch-devices">This App does not work on Touch Screen Devices</div>
+    <h1>Etch-a-Sketch</h1>
+
+    <div id="container-wrapper">
+      <div id="squares-container"></div>
+    </div>
+
+    <div id="buttons-div">
+      <button id="gray-shades-button">Shades of Gray</button>
+      <button id="reset-button">Reset the Grid</button>
+      <button id="clear-button">Clear the Grid</button>
+      <button id="random-colors-button">Random Colors</button>
+    </div>
+
+    <div id="modal-div">
+      <span id="close-modal">&times;</span>
+      <label for="squares-number-input">How many squares wide ?</label>
+      <input type="number" name= "squares-number-input" id="squares-number-input" size="2" max="60" min="1" />
+      <button id="confirm-number-squares-button">Confirm</button>
+      <div id="alert-message-div">Please chose a number between 1 and 60</div>
+    </div>
+  </body>
+</html>
