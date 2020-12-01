@@ -144,7 +144,7 @@ Distributed under the MIT License. See <a href="./LICENCE.txt">`LICENSE`</a> for
 
 ## Contact
 
-Cyrilo - [Personal Website](https://yetToCome) - cyrildeveloppeur@gmail.com
+Cyrilo - [Personal Website](https://cyrilo.dev) - cyrildeveloppeur@gmail.com
 
 Project Link: [https://github.com/Banaanas/etch-a-sketch-TOP](https://github.com/Banaanas/etch-a-sketch-TOP)
 
