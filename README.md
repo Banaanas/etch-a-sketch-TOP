@@ -137,7 +137,7 @@ npm run build
 
 ## License
 
-Distributed under the MIT License. See <a href="./LICENCE.txt">`LICENSE`</a> for more information.
+Distributed under the MIT License. See <a href="./LICENCE">`LICENSE`</a> for more information.
 
 
 <!-- CONTACT -->
