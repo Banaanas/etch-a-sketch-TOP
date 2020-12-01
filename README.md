@@ -137,7 +137,7 @@ npm run build
 
 ## License
 
-Distributed under the MIT License. See <a href="./LICENCE">`LICENSE`</a> for more information.
+Distributed under the MIT License. See <a href="./LICENSE">`LICENSE`</a> for more information.
 
 
 <!-- CONTACT -->
@@ -166,4 +166,4 @@ Project Link: [https://github.com/Banaanas/etch-a-sketch-TOP](https://github.com
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&
 [linkedin-url]: https://linkedin.com/mylink
 [license-shield]: https://img.shields.io/badge/License-MIT-limegreen.svg
-[license-url]: ./LICENCE.txt
+[license-url]: ./LICENSE
