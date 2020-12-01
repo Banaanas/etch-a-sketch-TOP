@@ -5,21 +5,19 @@
   },
   "extends": [
     "airbnb-base",
-    "plugin:jest/recommended"
+    "plugin:jest/recommended",
+    "plugin:eslint-comments/recommended",
+    "prettier"
   ],
   "parserOptions": {
     "ecmaVersion": 11,
     "sourceType": "module"
   },
   "plugins": [
-    "jest"
+    "jest",
+    "jest-formatting"
   ],
   "rules": {
-    "no-plusplus": [
-      2,
-      { "allowForLoopAfterthoughts": true
-      }
-    ],
     "quotes": [
       1,
       "double",
