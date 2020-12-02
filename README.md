@@ -113,7 +113,7 @@ npm install npm@latest -g
 1 - Clone the Project's repository
 
 ```sh
-git clone https://github.com/your_username_/Project-Name.git
+git clone https://github.com/Banaanas/etch-a-sketch-TOP.git
 ```
 
 2 - Install NPM Packages / Dependencies
