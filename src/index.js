@@ -81,7 +81,7 @@ const hideModal = () => {
 const setAlertModalDelay = () => {
   setTimeout(() => {
     alertMessageDiv.style.display = "none";
-  }, 1000);
+  }, 2000);
 };
 
 /* * Function - Display Alert  Message Modal * */
