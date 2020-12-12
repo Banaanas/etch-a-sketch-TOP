@@ -31,7 +31,7 @@
     </a>
 </p>
 
-<h1 align="center">:pencil2: Etch-a-Sketch :art:</h1>
+<h1 align="center">🖌️ Etch-a-Sketch 🎨</h1>
 
 <p align="center">
     Fizzy - and fill with pleasant memories - Etch-a-Sketch Game.<br/><br/>
