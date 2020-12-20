@@ -69,7 +69,7 @@ Etch-a-Sketch Game achieved as part of <a href="https://www.theodinproject.com/"
 - Random Colors Hover Effect ;
 - Squares Number Choice ;
 - Great User Interface ;
-- Responsive design.
+- Responsive Design.
 
 <p align="center">
   <a href="https://etch-a-sketch.cyrilo.app/">
