@@ -149,7 +149,7 @@ Project Link: [https://github.com/Banaanas/etch-a-sketch-TOP](https://github.com
 
 ## Acknowledgements
 
-- [The Odin Project](https://www.theodinproject.com/)
+- [The Odin Project](https://www.theodinproject.com/) 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
