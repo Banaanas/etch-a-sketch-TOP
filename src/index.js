@@ -16,18 +16,26 @@ const randomColorsButton = document.querySelector("#random-colors-button");
 const modalDiv = document.querySelector("#modal-div");
 const modalCloseButton = document.querySelector("#close-modal");
 const numberInput = document.querySelector("#squares-number-input");
-const confirmNumberSquaresButton = document.querySelector("#confirm-number-squares-button");
+const confirmNumberSquaresButton = document.querySelector(
+  "#confirm-number-squares-button",
+);
 const alertMessageDiv = document.querySelector("#alert-message-div");
 const alertTouchDevices = document.querySelector("#alert-touch-devices");
 
 /* * Function - Create squares grid * */
 const createSquaresGrid = (userChoice) => {
   userInput = userChoice;
-  const containerAllSquareDivs = document.querySelector("#squares-container");// Select the container
+  const containerAllSquareDivs = document.querySelector("#squares-container"); // Select the container
 
   // Fix the grid's columns and rows  number inside containerAllSquareDivs
-  containerAllSquareDivs.style.setProperty("grid-template-columns", `repeat(${userChoice}, 1fr)`);
-  containerAllSquareDivs.style.setProperty("grid-template-row", `repeat(${userChoice}, 1fr)`);
+  containerAllSquareDivs.style.setProperty(
+    "grid-template-columns",
+    `repeat(${userChoice}, 1fr)`,
+  );
+  containerAllSquareDivs.style.setProperty(
+    "grid-template-row",
+    `repeat(${userChoice}, 1fr)`,
+  );
 
   // Create new squares and append them to the container
   for (let i = 0; i < userChoice * userChoice; i++) {
@@ -43,7 +51,8 @@ const createSquaresGrid = (userChoice) => {
       /** 1 - At first, when the grid is created, opacity = 0
        * because the custom attribute "progressive opacity" has not been assigned yet.
        * We add 0.1 to 0, so the first mouseenter generates a 0.1 opacity.* */
-      let opacityDOM = Number(event.target.getAttribute("progressive-opacity")) + 0.1;
+      let opacityDOM =
+        Number(event.target.getAttribute("progressive-opacity")) + 0.1;
       event.target.style.backgroundColor = "black";
       event.target.style.opacity = opacityDOM; // 2 - Change the CSS opacity
 
@@ -94,7 +103,7 @@ const displayAlertMessage = () => {
 const resetGrid = () => {
   const squaresNumber = numberInput.value;
 
-  if ((squaresNumber > 60) || (squaresNumber <= 0)) {
+  if (squaresNumber > 60 || squaresNumber <= 0) {
     displayAlertMessage();
     return;
   }
@@ -109,7 +118,7 @@ const resetGrid = () => {
 };
 
 /* * Function - SetAlertDevicesDelay Function - This App doesn't work on Touch Screen
-* Devices. This function set the delay after which the relating Alert disappears after 5000 ms * */
+ * Devices. This function set the delay after which the relating Alert disappears after 5000 ms * */
 const setAlertTouchDevicesDelay = () => {
   setTimeout(() => {
     alertTouchDevices.remove();
@@ -123,7 +132,7 @@ const hideAlertDevices = () => {
 
 // Gray Shades Button - Event Listener
 grayShadesButton.addEventListener("click", () => {
-// Remove all created divs inside the container
+  // Remove all created divs inside the container
   const allSquareDivs = document.querySelectorAll(".new-square-divs");
   allSquareDivs.forEach((item) => {
     item.remove();
