@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e723b53-a31b-4689-a3b1-4b3b752ad21b" name="Default Changelist" comment="build: update project">
+    <list default="true" id="8e723b53-a31b-4689-a3b1-4b3b752ad21b" name="Default Changelist" comment="feat: updated README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +71,9 @@
       <workItem from="1608660725208" duration="29000" />
       <workItem from="1661805958524" duration="1679000" />
       <workItem from="1661808649425" duration="6000" />
-      <workItem from="1661809084187" duration="368000" />
+      <workItem from="1661809084187" duration="427000" />
+      <workItem from="1661810462344" duration="10000" />
+      <workItem from="1661811593302" duration="395000" />
     </task>
     <task id="LOCAL-00001" summary="Readme">
       <created>1608660650760</created>
@@ -101,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661807316383</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: updated README.md">
+      <created>1661809502002</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661809502002</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +131,7 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="build: update project" />
-    <option name="LAST_COMMIT_MESSAGE" value="build: update project" />
+    <MESSAGE value="feat: updated README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: updated README.md" />
   </component>
 </project>
