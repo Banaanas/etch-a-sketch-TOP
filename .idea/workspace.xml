@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e723b53-a31b-4689-a3b1-4b3b752ad21b" name="Default Changelist" comment="feat: updated README.md">
+    <list default="true" id="8e723b53-a31b-4689-a3b1-4b3b752ad21b" name="Default Changelist" comment="fix: update page title">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +73,7 @@
       <workItem from="1661808649425" duration="6000" />
       <workItem from="1661809084187" duration="427000" />
       <workItem from="1661810462344" duration="10000" />
-      <workItem from="1661811593302" duration="395000" />
+      <workItem from="1661811593302" duration="1093000" />
     </task>
     <task id="LOCAL-00001" summary="Readme">
       <created>1608660650760</created>
@@ -110,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661809502002</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix: update page title">
+      <created>1661812058659</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661812058659</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +139,7 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="build: update project" />
     <MESSAGE value="feat: updated README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: updated README.md" />
+    <MESSAGE value="fix: update page title" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: update page title" />
   </component>
 </project>
